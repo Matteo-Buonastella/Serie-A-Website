@@ -1,0 +1,132 @@
+.page{
+    padding: 12px 12px 13px 80px;
+   
+}
+
+
+.container>h2{                 /*Title of carousel*/
+    text-align: center;
+    margin-top:6%;
+    margin-bottom:2%;
+    margin-left: 0%;
+    font-size: 38px;
+    color: #3333ff;
+}
+
+.carousel {
+  width:80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel-caption{           /*Edits location of text on carousel*/
+    position:absolute;
+    margin-bottom:70px;
+}
+
+.carousel1 {
+     margin-bottom:60px !important;
+     color:white;
+}
+.carousel2 {              /*Edits location of text on 2nd carousel pic do to image size problems*/
+     margin-bottom:-30px !important;
+     color:white;
+    
+}
+
+.Trending-Title             /*Trending Title*/
+{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    margin-top:50px;
+    text-align: center;
+     color: #3333ff;
+}
+
+h2{               /*Article title*/
+    color:#0d0d0d;
+}
+
+
+#content{                                                /*Edits the 1st article under trending*/
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    width:700px;
+    padding-left: 250px;
+    max-height: 300px;
+    margin-top: 15px;
+    position: relative;
+    overflow:hidden;
+    /*Sets transition up*/
+    -webkit-transition: height 3.5s;
+    transition: height 3.5s;
+}
+
+/* .articles{
+    display: inline-block;
+    position: relative;
+  /*  display: flex; */
+  /* justify-content: space-around; */
+  
+
+
+
+
+#Trending-Article1{
+    display:inline-block;
+    margin-bottom:2%;
+    margin-left:22%;
+
+}
+
+#Trending-Article2{
+    display:inline-block;
+    margin-bottom:2%;
+    margin-left:18%;
+
+}
+
+
+
+#Article{
+    display:inline-block;
+    margin-bottom:5%;
+    margin-left:16%;
+
+}
+
+
+/*
+.fake-image {
+  
+  height: 15%;
+  width: 300px;
+}
+*/
+
+.display{
+    font-size:18px;
+    margin-top:2%;
+    width:90%;
+}
+
+hr{
+    background-color:black;
+}
+
+
+@media all and (min-width:2100px){
+    #Trending-Article1{
+    display:inline-block;
+    margin-bottom:2%;
+    margin-left:26%;
+
+}
+
+#Trending-Article2{
+    display:inline-block;
+    margin-bottom:2%;
+    margin-left:25%;
+
+}
+}

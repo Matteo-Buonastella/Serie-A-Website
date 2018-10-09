@@ -1,0 +1,177 @@
+html, body { height: 100%; }
+
+.Info{
+    margin-top:3%;
+    display:inline-block;
+    
+}
+
+.TeamName{
+    
+    font-size: 3em;
+    font-family: Georgia, Serif;
+    text-decoration: underline black;
+
+    color:blue;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom:-1%;
+}
+
+.Jersey{
+  margin-left: 4%;
+}
+
+.Jersey2{
+}
+
+.Inter{
+  float:center;
+  margin-left:15%;
+  max-width:100%;
+  margin-bottom:1%;
+
+}
+
+.Stadium{
+     max-width:100%;
+    margin-right:4%;
+    float:right;
+   
+}
+
+.name{
+    max-width:100%;;
+    font-size:1.8em;
+    margin-left:73%;
+    color:black;
+     font-weight: bold;
+     
+}
+.opened{
+    font-size:1.2em;
+    margin-left:68%;
+    margin-top:2%;
+
+}
+.glyphicon-remove {
+color:red;
+}
+
+/*/////////CSS FOR CLUB PAGE///////////*/
+button{
+    background-color: #008CBA;
+    color:white;
+    border: none;
+    padding: 15px 25px;
+    margin-top:1%;
+    margin-bottom:5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+#Schedule{                                        
+    display:none;
+}
+
+#History{
+    display:none;
+}
+#News{
+    display:none;
+}
+#Squad{
+    display:none;
+}
+
+
+table{
+    font-family: Helvetica, Arial, sans-serif; 
+     font-size: 18px;
+    color: #0d0d0d;
+     width: 70%;
+     margin: 0 auto;
+    margin-bottom:3%;
+    table-layout: fixed
+}
+
+tr{
+    text-align: center;
+    height: 45px; 
+     border: 1px solid #CCC; 
+     background: white;
+}
+
+th{
+    text-align: center;
+    width:300px;
+     background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+tr:hover{
+    
+    background-color: lightblue;
+    opacity: .8;
+}
+
+td:nth-child(1) {
+    padding-right:12%;
+  text-align: right;
+}
+
+td:nth-child(3) {
+    padding-left:12%;
+  text-align: left;
+}
+
+/*///////MEDIA QUERIES///////*/
+@media all and (max-width: 583px){
+    .name{
+        margin-left:71%;
+        margin-bottom:-1%;
+        font-size:1em;
+    }
+    .Stadium{
+        margin-top:2%;
+       
+    }
+    .opened{
+        display:none;
+    }
+    .Inter{
+        width:50px;
+        margin-bottom:5%;
+    }
+    .form{
+        margin-bottom:8%;
+    }
+}
+
+@media all and (max-width: 800px){
+    table{
+        width:100%;
+    }
+ 
+    td:nth-child(3) {
+    padding-left:3%;
+    text-align: left;
+    }
+}
+
+@media all and (min-width:1996px){
+    .name{
+         float:right;
+         margin-right:14%;
+    }
+    .opened{
+        float:right;
+        margin-top:1%;
+        margin-right:10%;
+    }
+}

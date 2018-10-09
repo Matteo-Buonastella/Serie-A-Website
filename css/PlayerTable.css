@@ -1,0 +1,28 @@
+table#Player_Table{
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 15px;
+    color: #0d0d0d;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom:3%;
+    table-layout: fixed
+}
+
+table#Player_Table tr{
+    text-align: center;
+    height: 45px; 
+    border: 1px solid #CCC; 
+    background: white;
+}
+
+table#Player_Table th{
+    text-align: center;
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+table#Player_Table tr:hover{    
+    opacity: .8;
+}
+

@@ -1,0 +1,61 @@
+.Schedule{
+    margin-top:5%;
+    text-align: center;
+}
+
+table{
+    font-family: Helvetica, Arial, sans-serif; 
+     font-size: 18px;
+    color: #0d0d0d;
+     width: 70%;
+     margin: 0 auto;
+    margin-top:3%;
+    margin-bottom:3%;
+    table-layout: fixed
+}
+
+tr{
+    text-align: center;
+    height: 45px; 
+     border: 1px solid #CCC; 
+     background: white;
+}
+
+th{
+    text-align: center;
+    width:300px;
+     background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+td:nth-child(1) {
+    padding-right:11%;
+  text-align: right;
+}
+
+td:nth-child(3) {
+    padding-left:11%;
+  text-align: left;
+}
+
+
+
+@media all and (max-width:800px){
+    table{
+        width:100%;
+    }
+    td:nth-child(1) {
+        padding-right:3%;
+        text-align: right;
+    }
+    td:nth-child(3) {
+    padding-left:1%;
+    text-align: left;
+    }
+
+    .Schedule{
+    margin-top:13%;
+    text-align: center;
+}
+}
+

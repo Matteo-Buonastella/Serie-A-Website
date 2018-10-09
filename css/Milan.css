@@ -1,0 +1,172 @@
+html, body { height: 100%; }
+
+.Info{
+    margin-top:3%;
+    display:inline-block;
+    
+}
+
+.TeamName{
+    
+    font-size: 3em;
+    font-family: Georgia, Serif;
+    text-decoration: underline black;
+
+    color:red;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom:-1%;
+}
+
+.Jersey{
+  margin-left: 2%;
+}
+
+.Jersey2{
+    margin-left: -3%;
+}
+
+.Milan{
+  float:center;
+  margin-left:17%;
+  max-width:100%;
+  margin-bottom:1%;
+}
+
+.Stadium{
+     max-width:100%;
+    margin-right:3.5%;
+    float:right;
+   
+}
+
+.name{
+    font-size:1.8em;
+    margin-left:75%;
+    color:black;
+     font-weight: bold;
+}
+.opened{
+    font-size:1.2em;
+    margin-left:68%;
+  
+}
+.glyphicon-remove {
+color:red;
+}
+
+/*/////////CSS FOR CLUB PAGE///////////*/
+button{
+    background-color: #f44336;
+    color:white;
+    border: none;
+    padding: 15px 25px;
+    margin-top:1%;
+    margin-bottom:5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+#Schedule{                                        
+    display:none;
+}
+
+#History{
+    display:none;
+}
+#News{
+    display:none;
+}
+#Squad{
+    display:none;
+}
+
+
+table#Club_Schedule{
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 18px;
+    color: #0d0d0d;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom:3%;
+    table-layout: fixed
+}
+
+table#Club_Schedule tr{
+    text-align: center;
+    height: 45px; 
+    border: 1px solid #CCC; 
+    background: white;
+}
+
+table#Club_Schedule th{
+    text-align: center;
+    width:300px;
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+table#Club_Schedule tr:hover{    
+    background-color: #ff8080;
+    opacity: .8;
+}
+
+table#Club_Schedule td:nth-child(1) {
+    padding-right:12%;
+    text-align: right;
+}
+
+table#Club_Schedule td:nth-child(3) {
+    padding-left:12%;
+    text-align: left;
+}
+
+
+/*///////MEDIA QUERIES///////*/
+@media all and (max-width: 583px){
+    .name{
+        margin-bottom:-1%;
+        font-size:1.2em;
+    }
+    .Stadium{
+        margin-top:2%;
+        margin-right:2%;
+    }
+    .opened{
+        display:none;
+    }
+    .Milan{
+        width:45px;
+        margin-bottom:5%;
+    }
+    .form{
+        margin-bottom:8%;
+    }
+}
+
+@media all and (max-width: 800px){
+    table{
+        width:100%;
+    }
+ 
+    td:nth-child(3) {
+    padding-left:3%;
+    text-align: left;
+    }
+}
+
+@media all and (min-width:1996px){
+    .name{
+         float:right;
+         margin-right:15%;
+    }
+    .opened{
+        float:right;
+        margin-right:10%;
+    }
+}
